@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
     private val drawableResList = listOf(
             R.drawable.double_color_circle_gradient,
             R.drawable.triple_color_circle_gradient,
-            R.drawable.triple_color_circle_diagonally_gradient
+            R.drawable.triple_color_circle_diagonally_gradient,
+            R.drawable.double_color_rect_gradient
     )
 
     private val drawableListAdapter = DrawableListAdapter(drawableResList)
